@@ -1,157 +1,217 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "serialNumber": "60044138",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 2,
-            "serialNumber": "88368706",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 3,
-            "serialNumber": "89939395",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 4,
-            "serialNumber": "69868107",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 5,
-            "serialNumber": "55507355",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 6,
-            "serialNumber": "38574389",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 7,
-            "serialNumber": "54448040",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 8,
-            "serialNumber": "57819100",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 9,
-            "serialNumber": "42883225",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 10,
-            "serialNumber": "64766967",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 11,
-            "serialNumber": "12296858",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 12,
-            "serialNumber": "61459651",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 13,
-            "serialNumber": "01154961",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 14,
-            "serialNumber": "39048878",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 15,
-            "serialNumber": "49775349",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 16,
-            "serialNumber": "67583953",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 17,
-            "serialNumber": "95730437",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 18,
-            "serialNumber": "97249386",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 19,
-            "serialNumber": "41011714",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 20,
-            "serialNumber": "85460018",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 21,
-            "serialNumber": "78105513",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 22,
-            "serialNumber": "91719030",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 23,
-            "serialNumber": "28930408",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 24,
-            "serialNumber": "03468358",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 25,
-            "serialNumber": "53508604",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 26,
-            "serialNumber": "13867141",
-            "numberOfDigits": 4
-        },
-        {
-            "id": 27,
-            "serialNumber": "72021885",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 28,
-            "serialNumber": "15786388",
-            "numberOfDigits": 6
-        },
-        {
-            "id": 29,
-            "serialNumber": "03634999",
-            "numberOfDigits": 5
-        },
-        {
-            "id": 30,
-            "serialNumber": "44237935",
-            "numberOfDigits": 6
-        }
-],
-"profile": {
+  "posts": [
+    {
+      "id": 1,
+      "serialNumber": "60044138",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "serialNumber": "88368706",
+      "numberOfDigits": 6,
+      "location": "Warehouse B",
+      "status": "Inactive"
+    },
+    {
+      "id": 3,
+      "serialNumber": "89939395",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "serialNumber": "69868107",
+      "numberOfDigits": 5,
+      "location": "Warehouse C",
+      "status": "Inactive"
+    },
+    {
+      "id": 5,
+      "serialNumber": "55507355",
+      "numberOfDigits": 4,
+      "location": "Warehouse B",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "serialNumber": "38574389",
+      "numberOfDigits": 5,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 7,
+      "serialNumber": "54448040",
+      "numberOfDigits": 4,
+      "location": "Warehouse C",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "serialNumber": "57819100",
+      "numberOfDigits": 4,
+      "location": "Warehouse B",
+      "status": "Inactive"
+    },
+    {
+      "id": 9,
+      "serialNumber": "42883225",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "serialNumber": "64766967",
+      "numberOfDigits": 6,
+      "location": "Warehouse C",
+      "status": "Inactive"
+    },
+    {
+      "id": 11,
+      "serialNumber": "12296858",
+      "numberOfDigits": 4,
+      "location": "Warehouse B",
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "serialNumber": "61459651",
+      "numberOfDigits": 5,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 13,
+      "serialNumber": "01154961",
+      "numberOfDigits": 4,
+      "location": "Warehouse C",
+      "status": "Active"
+    },
+    {
+      "id": 14,
+      "serialNumber": "39048878",
+      "numberOfDigits": 5,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 15,
+      "serialNumber": "49775349",
+      "numberOfDigits": 6,
+      "location": "Warehouse B",
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "serialNumber": "67583953",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 17,
+      "serialNumber": "95730437",
+      "numberOfDigits": 4,
+      "location": "Warehouse C",
+      "status": "Active"
+    },
+    {
+      "id": 18,
+      "serialNumber": "97249386",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 19,
+      "serialNumber": "41011714",
+      "numberOfDigits": 5,
+      "location": "Warehouse B",
+      "status": "Active"
+    },
+    {
+      "id": 20,
+      "serialNumber": "85460018",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 21,
+      "serialNumber": "78105513",
+      "numberOfDigits": 5,
+      "location": "Warehouse C",
+      "status": "Active"
+    },
+    {
+      "id": 22,
+      "serialNumber": "91719030",
+      "numberOfDigits": 4,
+      "location": "Warehouse B",
+      "status": "Inactive"
+    },
+    {
+      "id": 23,
+      "serialNumber": "28930408",
+      "numberOfDigits": 6,
+      "location": "Warehouse A",
+      "status": "Active"
+    },
+    {
+      "id": 24,
+      "serialNumber": "03468358",
+      "numberOfDigits": 5,
+      "location": "Warehouse C",
+      "status": "Inactive"
+    },
+    {
+      "id": 25,
+      "serialNumber": "53508604",
+      "numberOfDigits": 4,
+      "location": "Warehouse B",
+      "status": "Active"
+    },
+    {
+      "id": 26,
+      "serialNumber": "13867141",
+      "numberOfDigits": 4,
+      "location": "Warehouse A",
+      "status": "Inactive"
+    },
+    {
+      "id": 27,
+      "serialNumber": "72021885",
+      "numberOfDigits": 6,
+      "location": "Warehouse C",
+      "status": "Active"
+    },
+    {
+      "id": 28,
+      "serialNumber": "15786388",
+      "numberOfDigits": 6,
+      "location": "Warehouse B",
+      "status": "Inactive"
+    },
+    {
+      "id": 29,
+      "serialNumber": "03634999",
+      "numberOfDigits": 5,
+      "location": "Warehouse A",
+      "status": "Active"
+    },
+    {
+      "id": 30,
+      "serialNumber": "44237935",
+      "numberOfDigits": 6,
+      "location": "Warehouse C",
+      "status": "Inactive"
+    }
+  ],
+  "profile": {
     "name": "typicode"
   }
 }
